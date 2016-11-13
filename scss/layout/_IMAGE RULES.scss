@@ -1,146 +1,76 @@
 
-/* IMAGE RULES ============================*/
+/* IMAGE GRID RULES ============================*/
 
 
-
-
-
-/* The wrapper for each item */
-.rig-cell {
-  display: block;
-  position: relative;
-  overflow: hidden;
-
-  @media #{$brk-small} {
-    margin: 0px;
-  }
+.IMG7 {
+   @include span-columns(12);
+   @include shift(1);
+   
 }
 
-/* If have the image layer */
-.rig-img {
-  display: block;
-  width: 100%;
-  height: auto;
-  border: none;
-  transform: scale(1);
-  transition: all 1s; }
-
-.rig li:hover .rig-img {
-  transform: scale(1.05);
-  
+.IMG5 {
+   @include span-columns(6);
+   @include shift();
+   margin-top: 370px;
 }
 
-/* GRAYS OUT THE IMAGE */
-.rig-overlay {
-  position: absolute;
-  display: block;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  
-  background: #151515 no-repeat center 20%;
-  background-size: 50px 50px;
-  opacity: 0;
-  filter: alpha(opacity=0);
-  /*For IE6 - IE8*/
-  transition: all 0.6s;
-   }
-
-.rig li:hover .rig-overlay {
-  opacity: 0.5;
-
-  }
-
-/* PULLS IN THE TEXT / ICON */
-.rig-text {
-  display: block;
-  padding: 0px;
-  box-sizing: border-box;
-  position: absolute;
-  left: 0;
-  width: 100%;
-  text-align: center;
-  text-transform: capitalize;
-  font-size: 45px;
-  font-weight: bold;
-  font-family: $stack-muli;
-  font-weight: normal !important;
-  top: 40%;
-  color: white;
-  opacity: 0;
-  filter: alpha(opacity=0);
-  /*For older IE*/
-  transform: translateY(-20px);
-  transition: all .3s; 
-
-  @media #{$brk-wide} {
-    font-size: 45px;
-  }
-
-  @media #{$brk-narrow} {
-    font-size: 30px;
-    padding: 10px;
-    top: 40%;
-    background: rgba(black, 0.4)
-  }
-
-   @media #{$brk-small} {
-    top: 35%;
-    padding: 15px;
-    font-size: 25px;
-    background: rgba(black, 0.4);
-    
-  }
-
-   @media #{$brk-xsmall} {
-    font-size: 25px;
-  }
-
+.IMG2 {
+   @include span-columns(4);
+   @include shift();
+   margin-top: 180px;
 }
 
-.rig li:hover .rig-text {
-  transform: translateY(0px);
-  opacity: 0.9;
- 
- }
 
- .Small {
-  font-size: 20px;
+.IMG11 {
+   @include span-columns(9);
+   @include shift(1);
+   margin-top: 180px;
+}
 
-  @media #{$brk-narrow} {
-    font-size: 30px;
-    
-  }
 
-  @media #{$brk-small} {
-    font-size: 25px;
-  }
+.IMGUP {
+   -moz-animation-name: IMGUP;
+    -moz-animation-iteration-count: 1;
+    -moz-animation-timing-function: ease-out;
+    -moz-animation-duration: 0.6s;
 
- }
+    -webkit-animation-name: IMGUP;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: ease-out;
+    -webkit-animation-duration: 0.6s;
 
- 
+    animation-name: IMGUP;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-out;
+    animation-duration: 0.6s;
+}
 
-@media only screen and (max-width: 768px) {
-  
-  .rig li .rig-text {
-    transform: none;
-    opacity: .9;
-    color: white;
-
-  }
-
-  .rig li:hover .rig-overlay {
-    display: none;
-  }
-
-   .rig li:hover .rig-img {
-  transform: scale(1);
-  
-  }
-
+@-moz-keyframes IMGUP {
+    0% {
+        -moz-transform: translateY(300px);
+    }
+    100% {
+        -moz-transform: translateY(0);
+    }
+}
+@-webkit-keyframes IMGUP {
+    0% {
+        -webkit-transform: translateY(300px);
+    }
+    100% {
+        -webkit-transform: translateY(0);
+    }
+}
+@keyframes IMGUP {
+    0% {
+        transform: translateY(300px);
+    }
+    100% {
+        transform: translateY(0);
+    }
 }
 
 
 
-/* IMAGE RULES  END ============================*/
+
+/* IMAGE GRID  END ============================*/

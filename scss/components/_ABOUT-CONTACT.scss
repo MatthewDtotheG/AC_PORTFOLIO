@@ -1,4 +1,4 @@
-/* ABOUT PAGE ===============================*/
+/* ===============================
 
 
 .RESUME, 
@@ -39,62 +39,6 @@
 
 
 
-form {
-  
-  margin-top: 400px;
-  margin-bottom: 400px;
-  font-size: 20px;
-  font-family: $stack-muli;
-  -webkit-appearance: none;
-
-  @media #{$brk-narrow}{
-    font-size: 16px;}
-}
-
-input, 
-textarea {
-  background-color: $color-prim;
-  border: 1px solid black;
-  padding: 10px;
-  padding-left: 5px;
-  margin: 20px 0px;
-  font: 20px $stack-muli;
-  text-rendering: auto;
-  color: initial;
-  letter-spacing: normal;
-  word-spacing: normal;
-  text-transform: none;
-  text-indent: 0px;
-  text-shadow: none;
-  text-align: start;
-  -webkit-appearance: none;
-}
-
-
-
-input:focus,
-textarea:focus {
-    outline: none !important;
-    border:1px solid black;
-    border-color: black;
-    box-shadow: black;
-    background-color: $color-sec;
-    color: $color-text-light;
-    border-color: none;
-}
-
-
-
-textarea {
-  height: 187px;
-}
-
-
-#{$all-text-inputs} {
-  background-color: $color-prim;
-  border: 1px solid black;
-  border-radius: 0px;
-}
 
 
 .RESUME:hover {
@@ -108,67 +52,11 @@ textarea {
   font-weight: 600;
 
    }
-
-
-.social,
-.socialG {
-  height: 30px;
-  width: 30px;
-  margin-right: 20px;
-  margin-top: 30px;
-}
-
-.socialG {
-  margin-right: 4px;
-}
-
-.SocialWrap {
-  
-  float: none;
-  text-align: center;
-
-}
-
-a img.social:hover {
-  opacity: .5; }
-
-a img.socialG:hover {
-  opacity: .5; }
-
-.A {
-  margin-bottom: 20px; }
+*/
 
 
 
-.success {
-  padding: 1em;
-  margin-bottom: 0.75rem;
-  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
-  color: #34AADC;
-  background-color: $color-prim;
-  
-  -webkit-border-radius: 4px;
-     -moz-border-radius: 4px;
-          border-radius: 4px;
-}
 
-.error {
-  padding: 1em;
-  margin-bottom: 0.75rem;
-  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
-  color: #34AADC;
-  background-color: $color-prim;
-  
-  -webkit-border-radius: 4px;
-     -moz-border-radius: 4px;
-          border-radius: 4px;
-}
-
-input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
-    background-color: $color-prim;
-    background-image: none;
-    color: rgb(0, 0, 0);
-}
 
 
 
