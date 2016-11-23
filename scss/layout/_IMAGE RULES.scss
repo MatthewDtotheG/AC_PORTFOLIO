@@ -4,27 +4,27 @@
 
 .IMG7 {
    @include span-columns(12);
-   @include shift(1);
+  
    
 }
 
 .IMG5 {
    @include span-columns(6);
-   @include shift();
-   margin-top: 370px;
+   
+   margin-top: 250px;
 }
 
 .IMG2 {
    @include span-columns(4);
-   @include shift();
-   margin-top: 180px;
+   float: right;
+   margin-top: 50px;
 }
 
 
 .IMG11 {
-   @include span-columns(9);
-   @include shift(1);
-   margin-top: 180px;
+   @include span-columns(12);
+   
+   margin-top: 50px;
 }
 
 

@@ -19,6 +19,15 @@ h1 {
 
 }
 
+h2 {
+  font-family: 'Rubik', sans-serif;
+  font-size: 35px;
+  color: black;
+  margin-top: 30px;
+  text-align: center;
+
+}
+
 hr {
   width: 45%;
   height: 2px;
@@ -34,17 +43,11 @@ a {
   font-family: 'Rubik', sans-serif;
 }
 
-
-
-.BREAK {
-  margin-bottom: 300px;
-  @include span-columns(12);
+button {
+  color: black
 }
 
-.BREAKTOP {
-  margin-bottom: 200px;
-  @include span-columns(12);
-}
+
 
 footer {
   background-color: $color-sec;

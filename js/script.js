@@ -24,11 +24,27 @@ $(function(){
 
 
 
-//ANCHOR TAGS END ===============================
+//ANCHOR TAGS END 461482110 ===============================
 
 
 
 
+
+
+
+
+//INSTASHOW ===============================
+
+
+
+
+
+
+
+
+//INSTASHOW  ===============================
+
+  
 
 
 
@@ -48,7 +64,10 @@ $(document).ready(function(){
 
 
   $('.image').modaal({
-    type: 'image'
+    type: 'image',
+    background: 'white',
+    overlay_opacity: '0.8',
+
 });
 
 
