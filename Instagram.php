@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>ANDY CORBETT</title>
+    <title>Instagram - ANDY CORBETT</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta property="og:image" content="" />
     <meta property="og:description" content="I&#39m a cinematographer, photographer, and editor. Whether it&#39s music videos, a web series, film or digital photos, I want to make your vision come to life, and create a product we&#39re both proud of" />
@@ -19,17 +19,18 @@
 
 <div class="sidebar">
 
-        <h1>
-            ANDY CORBETT
-        </h1>
+        <a href="/">
+        <img class="LOGO1" src="img/LOGO.png">
+        
+        </a>
 
   <div id="NAVMENU">
           <div class="nav-mobile-wrap">
-            <a href="/">Paint</a> <span></span>
-            <a href="instagram.php">Instagram</a> <span></span>
-            <a href="#About">About</a> <span></span>
-            <a href="#Contact">Contact</a> <span></span>
-          </div>
+            <a href="/">Portfolio</a> <span></span>
+            <a href="Instagram.php">Instagram</a> <span></span>
+            <a href="About.php">About</a> <span></span>
+            <a href="Contact.php">Contact</a> <span></span>
+  </div>
     
 
           <a class="toggle-nav">

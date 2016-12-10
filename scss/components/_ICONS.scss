@@ -59,30 +59,18 @@
 
 
 /* LOGO =========================== opacity: .2;*/
-.LOGO {
-
-  opacity: .2;
-  margin: 200px;
-  @include span-columns(3);
-  @include shift(4.5);
-  
-  
+.LOGO1 {
+    margin-top: 35px;
+    height: 74px;
+    width: 120px;
+    transition: all ease .5s;
   }
+
+.LOGO1:hover {
+    opacity: .5;
+}
   
 
-
-.LOGONAV {
-  height: 40px;
-  width: 40px;
-  float: left;
-  margin-top: 5px;
-  margin-bottom: 0px;
-  margin-left: 35px;
-
-  @media #{$brk-narrow} {
-    margin-left: 15px; 
-    } 
-  }
 
   .LOGOFOOTER {
     height: 40px;

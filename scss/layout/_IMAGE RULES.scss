@@ -4,27 +4,41 @@
 
 .IMG7 {
    @include span-columns(12);
-  
-   
+
 }
 
+
+
 .IMG5 {
-   @include span-columns(6);
-   
-   margin-top: 250px;
+   margin-top: 73px;
+
+}
+
+.BLOCK1 {
+   @include span-columns(7);
+
+}
+
+.TBLOCK {
+    margin-top: 80px;
+    background-color: white;
+    padding: 15px;
+    text-align: left;
+    cursor: pointer;
 }
 
 .IMG2 {
    @include span-columns(4);
    float: right;
-   margin-top: 50px;
+   margin-top: 80px;
+   @include omega();
 }
 
 
 .IMG11 {
    @include span-columns(12);
    
-   margin-top: 50px;
+   margin-top: 80px;
 }
 
 
@@ -47,7 +61,7 @@
 
 @-moz-keyframes IMGUP {
     0% {
-        -moz-transform: translateY(300px);
+        -moz-transform: translateY(400px);
     }
     100% {
         -moz-transform: translateY(0);
@@ -55,7 +69,7 @@
 }
 @-webkit-keyframes IMGUP {
     0% {
-        -webkit-transform: translateY(300px);
+        -webkit-transform: translateY(400px);
     }
     100% {
         -webkit-transform: translateY(0);
@@ -63,7 +77,7 @@
 }
 @keyframes IMGUP {
     0% {
-        transform: translateY(300px);
+        transform: translateY(400px);
     }
     100% {
         transform: translateY(0);

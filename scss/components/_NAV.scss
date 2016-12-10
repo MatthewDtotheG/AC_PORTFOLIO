@@ -27,16 +27,12 @@
 #NAVMENU span {
   display: none; }
 
-/*
-#NAVMENU:hover  {
-  opacity: .5;
-  color: black; }
-*/
+
 
 .sidebar {
   position: fixed;
   margin-left: 35px;
-  height: 100%; 
+  height: 100%;
   background: $color-prim;
   @include span-columns(2);
 
@@ -82,16 +78,9 @@
 }
 
 
-.social,
-#NAVMENU a  {
-  opacity: .3;
-}
 
 
-a img.social:hover,
-#NAVMENU a:hover  {
-  opacity: 1;
-  color: black; }
+
 
 #NAVMENU a {
   display: block;

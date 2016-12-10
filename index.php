@@ -8,7 +8,7 @@
     <meta property="og:title" content="ANDY CORBETT" />
     <meta property="og:url"content="" />
     <meta property="og:type"content="website" />
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Rubik" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Montserrat|Yrsa:300" rel="stylesheet" type="text/css">
     <link href="css/APPLICATION.css" rel="stylesheet" media="screen">
   </head>
 
@@ -18,17 +18,18 @@
 
 <div class="sidebar">
 
-        <h1>
-            ANDY CORBETT
-        </h1>
+        <a href="/">
+        <img class="LOGO1" src="img/LOGO.png">
+        
+        </a>
 
   <div id="NAVMENU">
           <div class="nav-mobile-wrap">
-            <a href="/">Paint</a> <span></span>
+            <a href="/">Portfolio</a> <span></span>
             <a href="Instagram.php">Instagram</a> <span></span>
-            <a href="#About">About</a> <span></span>
-            <a href="#Contact">Contact</a> <span></span>
-          </div>
+            <a href="About.php">About</a> <span></span>
+            <a href="Contact.php">Contact</a> <span></span>
+  </div>
     
 
           <a class="toggle-nav">
@@ -66,17 +67,34 @@
 
         
 <div class="IMGUP">
-    <a href="img/7.jpg" class="image">
+    <a href="img/7a.jpg" class="image">
         <img src="img/7.jpg" class="IMG7">
     </a>
-    <a href="img/5.jpg" class="image">
+
+    <div class="BLOCK1">
+      <div class="TBLOCK">
+
+      <a href="Statement.php">
+        <span class="title">PERCEPTION 
+          <br>AND CONCEPTION</span>
+        <p class="PBLOCK"> By studying methods of producing optical illusions, and the psychological and physiological mechanisms that create them, I have developed a better understanding of how I construct my reality. These paintings use photographs as recordings taken in the American Southwest to create a new experience ...
+        </p>
+      </a>
+
+      </div>
+
+        <a href="img/5.jpg" class="image">
         <img src="img/5.jpg" class="IMG5">
-    </a>
+        </a>
+
+    </div>
+
+    
     <a href="img/2.jpg" class="image">
         <img src="img/2.jpg" class="IMG2">
     </a>
 
-     <a href="img/11.jpg" class="image">
+     <a href="img/11a.jpg" class="image">
         <img src="img/11.jpg" class="IMG11">
     </a>
 </div>
