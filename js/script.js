@@ -9,7 +9,7 @@ $(function(){
       var $target = $(target);
       var windowWidth = $(window).width();
 
-      $('html, body').stop().animate({
+      $('html, body').stop().animate({  
           'scrollTop': $target.offset().top
       }, 900, 'swing', function () {
           window.location.hash = target;
@@ -19,32 +19,25 @@ $(function(){
         $('#nav-icon3').removeClass('open')
         $('#NAVMENU').fadeOut(300)
      }
+
   });
 });
 
 
 
-//ANCHOR TAGS END 461482110 ===============================
+//ANCHOR TAGS END $(window).scroll(function() ===============================
 
 
 
 
-
-
-
-
-//INSTASHOW ===============================
-
-
-
-
-
-
-
-
-//INSTASHOW  ===============================
-
-  
+$(document).scroll(function() {
+  var y = $(this).scrollTop();
+  if (y > 550) {
+    $("#BACKUP").fadeIn();
+  } else {
+    $("#BACKUP").fadeOut();
+  }
+});
 
 
 

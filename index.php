@@ -14,13 +14,12 @@
 
 
 
-
+<body id="TOP">
 
 <div class="sidebar">
 
         <a href="/">
         <img class="LOGO1" src="img/LOGO.png">
-        
         </a>
 
   <div id="NAVMENU">
@@ -29,7 +28,7 @@
             <a href="Instagram.php">Instagram</a> <span></span>
             <a href="About.php">About</a> <span></span>
             <a href="Contact.php">Contact</a> <span></span>
-  </div>
+          </div>
     
 
           <a class="toggle-nav">
@@ -60,6 +59,10 @@
 
 </div>
 
+<a id="BACKUP" href="#TOP">
+  <img src="img/UPARROW.png" class="UPARROW">
+</a>
+
 
 <div class="NEW">
 
@@ -67,11 +70,11 @@
 
         
 <div class="IMGUP">
-    <a href="img/7a.jpg" class="image">
-        <img src="img/7.jpg" class="IMG7">
+    <a href="img/0a.jpg" class="image">
+        <img src="img/0.jpg" class="IMG0">
     </a>
 
-    <div class="BLOCK1">
+    <div class="BLOCK0">
       <div class="TBLOCK">
 
       <a href="Statement.php">
@@ -83,20 +86,37 @@
 
       </div>
 
-        <a href="img/5.jpg" class="image">
-        <img src="img/5.jpg" class="IMG5">
+        <a href="img/1.jpg" class="image">
+        <img src="img/1.jpg" class="IMG1">
         </a>
 
     </div>
 
-    
+
     <a href="img/2.jpg" class="image">
         <img src="img/2.jpg" class="IMG2">
     </a>
 
-     <a href="img/11a.jpg" class="image">
-        <img src="img/11.jpg" class="IMG11">
+     <a href="img/3a.jpg" class="image">
+        <img src="img/3.jpg" class="IMG3">
     </a>
+
+
+    <a href="img/4a.jpg" class="image">
+        <img src="img/4.jpg" class="IMG4">
+    </a>
+
+    <div class="BLOCK1">
+
+    <a href="img/5.jpg" class="image">
+        <img src="img/5.jpg" class="IMG5">
+    </a>
+
+    <a href="img/6.jpg" class="image">
+        <img src="img/6.jpg" class="IMG6">
+    </a>
+
+    </div>
 </div>
 
     

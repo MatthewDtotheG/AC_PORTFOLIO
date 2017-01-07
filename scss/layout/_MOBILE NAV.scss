@@ -1,28 +1,27 @@
 
 /* MOBILE MENU   ====================*/  
+
+
 @media (max-width: 768px) {
  
-  .NAV {
-    opacity: 1;
-    background: #3f3f3f;
-  }
+
   
   #NAVMENU {
     width: 100%;
     position: absolute;
     top: 50px;
-    left: 0;
+    right: 0;
     text-align: center;
     background: $mercury;
     display: none;
 
-     }
+  }
 
   #NAVMENU .nav-mobile-wrap {
     height: calc(100vh - 50px);
     padding: 70px 0;
 
-     }
+  }
 
   #NAVMENU.push {
     margin-top: 0; }
@@ -34,21 +33,13 @@
     font-size: 20px;
     }
 
-  #NAVMENU a:hover {
-    opacity: .4;
-  }
 
-
-  #NAVMENU .sliding-middle-out:after{
-    display: none;
-  }
 
   #NAVMENU span {
     width: 100%;
     display: block; }
 
-  .push {
-    display: none; }
+
 
 
 
@@ -75,7 +66,7 @@
     position: absolute;
     height: 3px;
     width: 100%;
-    background: #e5e5e5;
+    background: black;
     border-radius: 9px;
     opacity: 1;
     left: 0;

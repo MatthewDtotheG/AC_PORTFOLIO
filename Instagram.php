@@ -8,7 +8,7 @@
     <meta property="og:title" content="ANDY CORBETT" />
     <meta property="og:url"content="" />
     <meta property="og:type"content="website" />
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Rubik" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Montserrat|Yrsa:300" rel="stylesheet" type="text/css">
     <link href="css/APPLICATION.css" rel="stylesheet" media="screen"> 
     <link href="css/jquery.instashow.min.css" rel="stylesheet">
   </head>

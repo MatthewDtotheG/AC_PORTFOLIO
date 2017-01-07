@@ -2,20 +2,28 @@
 /* IMAGE GRID RULES ============================*/
 
 
-.IMG7 {
+.IMG0 {
    @include span-columns(12);
 
 }
 
 
 
-.IMG5 {
+.IMG1 {
    margin-top: 73px;
 
 }
 
-.BLOCK1 {
+.BLOCK0 {
    @include span-columns(7);
+
+   @media #{$brk-narrow} {
+    @include span-columns(6);
+  }
+
+   @media #{$brk-small} {
+    @include span-columns(12);
+  }
 
 }
 
@@ -25,6 +33,7 @@
     padding: 15px;
     text-align: left;
     cursor: pointer;
+
 }
 
 .IMG2 {
@@ -32,15 +41,53 @@
    float: right;
    margin-top: 80px;
    @include omega();
+
+   @media #{$brk-narrow} {
+    @include span-columns(5);
+    float: right;
+   margin-top: 80px;
+   @include omega();
+  }
+
+   @media #{$brk-small} {
+    display: none;
+  }
 }
 
 
-.IMG11 {
+.IMG3,
+.IMG4 {
    @include span-columns(12);
    
    margin-top: 80px;
 }
 
+.BLOCK1 {
+   @include span-columns(12);
+}
+
+.IMG5 {
+  margin-top: 80px;
+   @include span-columns(6);
+   @include shift(3);
+
+   @media #{$brk-small} {
+    @include span-columns(12);
+  }
+
+}
+
+.IMG6 {
+    margin-top: 80px;
+    margin-left: 0px;
+   @include span-columns(12);
+   float: right;
+
+   @media #{$brk-small} {
+    @include span-columns(12);
+  }
+
+}
 
 .IMGUP {
    -moz-animation-name: IMGUP;
