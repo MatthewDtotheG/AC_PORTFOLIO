@@ -72,6 +72,8 @@
 <div class="IMGUP">
     <a href="img/0a.jpg" class="image">
         <img src="img/0.jpg" class="IMG0">
+        <p class="BLAH">BLAH</p>
+        </img>
     </a>
 
     <div class="BLOCK0">
@@ -88,6 +90,7 @@
 
         <a href="img/1.jpg" class="image">
         <img src="img/1.jpg" class="IMG1">
+        
         </a>
 
     </div>
@@ -95,6 +98,7 @@
 
     <a href="img/2.jpg" class="image">
         <img src="img/2.jpg" class="IMG2">
+        
     </a>
 
      <a href="img/3a.jpg" class="image">
@@ -114,6 +118,14 @@
 
     <a href="img/6.jpg" class="image">
         <img src="img/6.jpg" class="IMG6">
+    </a>
+
+    <a href="img/7.jpg" class="image">
+        <img src="img/7.jpg" class="IMG7">
+    </a>
+
+    <a href="img/8.jpg" class="image">
+        <img src="img/8.jpg" class="IMG8">
     </a>
 
     </div>

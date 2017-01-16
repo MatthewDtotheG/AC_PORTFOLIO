@@ -25,10 +25,12 @@ $(function(){
 
 
 
-//ANCHOR TAGS END $(window).scroll(function() ===============================
+//ANCHOR TAGS END ===============================
 
 
 
+
+// FADE IN  =========================================
 
 $(document).scroll(function() {
   var y = $(this).scrollTop();
@@ -39,21 +41,13 @@ $(document).scroll(function() {
   }
 });
 
+// FADE IN END ======================================
 
 
 
 
 
 
-// ON LOAD FADE ===============================
-
-
-
-$(document).ready(function(){
-    $(".fade, .sidebar, .NAV, .IMGUP").hide(0).delay(500).fadeIn(800)
-});
-
-// ON LOAD FADE END ===============================
 
 
   $('.image').modaal({

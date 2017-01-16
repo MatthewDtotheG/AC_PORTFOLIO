@@ -1,11 +1,51 @@
 
 /* IMAGE GRID RULES ============================*/
 
+.image {
+  position: relative;
+}
 
 .IMG0 {
    @include span-columns(12);
-
+   
 }
+
+
+.IMG0,
+.IMG1,.IMG2,
+.IMG3,.IMG4,
+.IMG5,.IMG6,
+.IMG7,.IMG8 { 
+   opacity: 1;
+   transition: ease .6s;
+   color: white;
+}
+
+.IMG0:hover,.IMG1:hover,
+.IMG2:hover,.IMG3:hover,
+.IMG4:hover,.IMG5:hover,
+.IMG6:hover,.IMG7:hover,
+.IMG8:hover {
+  opacity: .2;
+  
+}
+
+
+.BLAH {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 21px;
+  visibility: hidden;
+  color: black;
+  position:absolute;
+  
+}
+
+.image:hover .BLAH {
+  visibility: visible;
+  opacity: 1;
+}
+
+
 
 
 
@@ -69,7 +109,16 @@
 .IMG5 {
   margin-top: 80px;
    @include span-columns(6);
-   @include shift(3);
+
+   @media #{$brk-small} {
+    @include span-columns(12);
+  }
+
+}
+
+.IMG5 {
+  margin-top: 80px;
+   @include span-columns(6);
 
    @media #{$brk-small} {
     @include span-columns(12);
@@ -78,6 +127,17 @@
 }
 
 .IMG6 {
+  margin-top: 80px;
+   @include span-columns(5);
+   float: right;
+   @media #{$brk-small} {
+    @include span-columns(12);
+  }
+
+}
+
+.IMG7,
+.IMG8 {
     margin-top: 80px;
     margin-left: 0px;
    @include span-columns(12);
@@ -89,7 +149,9 @@
 
 }
 
-.IMGUP {
+.IMGUP
+  
+  {
    -moz-animation-name: IMGUP;
     -moz-animation-iteration-count: 1;
     -moz-animation-timing-function: ease-out;

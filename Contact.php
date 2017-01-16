@@ -8,7 +8,7 @@
     <meta property="og:title" content="ANDY CORBETT" />
     <meta property="og:url"content="" />
     <meta property="og:type"content="website" />
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Montserrat|Josefin+Slab" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Montserrat|Yrsa:300" rel="stylesheet" type="text/css">
     <link href="css/APPLICATION.css" rel="stylesheet" media="screen">
   </head>
 
@@ -67,7 +67,7 @@
         <h2>CONTACT</h2>
 
         <p>
-            Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Maecenas faucibus mollis interdum. Nullam quis risus eget urna mollis ornare vel eu leo. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+            Say Hello! 
         </p>
 
         <form id="ajax-contact" method="post" action="mailer.php">
