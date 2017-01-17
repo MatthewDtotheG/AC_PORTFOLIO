@@ -56,7 +56,6 @@ p {
 
 .social,
 .UPARROW,
-#NAVMENU a,
 .PBLOCK  {
   opacity: .5;
   transition: all ease .3s;
@@ -65,10 +64,12 @@ p {
 
 a img.social:hover,
 .UPARROW:hover,
-#NAVMENU a:hover,
 .PBLOCK:hover  {
   opacity: 1;
-  color: black; }
+  color: black; 
+}
+
+
 
 .PQUOTE {
   font-size: 25px;

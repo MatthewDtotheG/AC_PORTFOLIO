@@ -41,10 +41,20 @@ $(document).scroll(function() {
   }
 });
 
-// FADE IN END ======================================
+// FADE IN END ====================================
 
 
 
+$(function(){
+    var current = location.pathname;
+    $('#NAVMENU a').each(function(){
+        var $this = $(this);
+        // if the current path is like this link, make it active
+        if($this.attr('href').indexOf(current) !== -1){
+            $this.addClass('MENUITEM_ON');
+        }
+    })
+});
 
 
 

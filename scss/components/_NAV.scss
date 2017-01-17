@@ -1,5 +1,22 @@
 /* NAV MENU */
 
+.MENUITEM {
+  color: #939393;
+  transition: all ease .3s;
+}
+
+.MENUITEM_ON {
+  color: black; 
+}
+
+#NAVMENU a:hover {
+  color: black;
+}
+
+
+
+
+
 
 .NAV {
   background: black;

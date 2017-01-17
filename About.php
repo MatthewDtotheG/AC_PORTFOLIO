@@ -13,7 +13,7 @@
   </head>
 
 
-
+<body>
 
 
 <div class="sidebar">
@@ -24,10 +24,10 @@
 
   <div id="NAVMENU">
           <div class="nav-mobile-wrap">
-            <a href="/">Portfolio</a> <span></span>
-            <a href="Instagram.php">Instagram</a> <span></span>
-            <a href="About.php">About</a> <span></span>
-            <a href="Contact.php">Contact</a> <span></span>
+            <a class="MENUITEM" href="/">Portfolio</a> <span></span>
+            <a class="MENUITEM" href="/Instagram.php">Instagram</a> <span></span>
+            <a class="MENUITEM" href="/About.php">About</a> <span></span>
+            <a class="MENUITEM" href="/Contact.php">Contact</a> <span></span>
           </div>
     
 
@@ -72,14 +72,7 @@
         <p>
             In his personal life, Andy Corbett resides in Springfield, MO, with his girlfriend in the artistic downtown area.  Andy currently works as both an Associate Trainer at Panera Bread as well as a bartender and instructor at RSVPaint. During this time after graduating with his Bachelors degrees, he continues to pursue different interpretations of reality by studying quantum theory, psychology, sensory research, and various spiritual perspectives. His aspirations include to graduate with his MFA in Painting/Mixed Media and to inspire others as an educator at the graduate level. 
         </p>
-        <p class="PQUOTE">
-            “Nullam id dolor id nibh ultricies vehicula ut id elit.” 
-        <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Sed posuere consectetur est at lobortis.
-        </p>
-        <p>
-            Charles “Andy” Corbett
-        </p>
+        
       </div>
 
     
