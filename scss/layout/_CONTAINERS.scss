@@ -70,7 +70,7 @@
   }
 
    @media #{$brk-small} {
-    margin-bottom: 30px;
+    margin-bottom: 50px;
   }
 
 }
@@ -154,6 +154,7 @@ input {
     font-weight: 300;
     -webkit-appearance: none;
     color: white;
+    margin-bottom: 100px;
 
     @media #{$brk-narrow}{
     font-size: 16px;}

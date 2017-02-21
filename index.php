@@ -69,6 +69,7 @@
     </a>
 
 
+
 <div class="NEW">
 
 
@@ -106,7 +107,7 @@
       <div class="BREAKTOP"></div>
 
         <a href="img/1.jpg" class="image">
-          <div class="box"> <img src="img/1.jpg">
+          <div class="box"> <img src="img/1.jpg" class="module">
            <div class="overbox">
               <div class="NAME overtext"> El Morro - Oil paint, mixed media on wood</div>
               <div class="tagline overtext"> 26.5in x 18.25in x 12in - 2015 </div>
@@ -136,7 +137,7 @@
     <div class="BREAKTOP"></div>
 
         <a href="img/4a.jpg" class="image">
-              <div class="box"> <img src="img/4.jpg">
+              <div class="box"> <img src="img/4.jpg" class="module">
                <div class="overbox">
                   <div class="NAME overtext">Day Hike II, Oil paint and pen on wood</div>
                   <div class="tagline overtext">24in. x 12in. x 8.25in - 2014</div>
@@ -148,7 +149,7 @@
     <div class="BREAKTOP"></div>
 
      <a href="img/3a.jpg" class="image">
-        <div class="box"> <img src="img/3.jpg">
+        <div class="box"> <img src="img/3.jpg" class="module">
            <div class="overbox">
               <div class="NAME overtext">Day Hike III - Oil Paint and pen on wood</div>
               <div class="tagline overtext">24.5in x 13.25in x 8.25in - 2014</div>
@@ -157,11 +158,12 @@
     </a>
 
     
-    <div class="BREAKTOP"></div>
+    
 
     <div class="BLOCK2">
+    <div class="BREAKTOP"></div>
           <a href="img/5.jpg" class="image">
-              <div class="box"> <img src="img/5.jpg" class="IMG5">
+              <div class="box"> <img src="img/5.jpg" class="module">
                  <div class="overbox">
                     <div class="NAME overtext">Horse’s Head - Linocut</div>
                     <div class="tagline overtext">9in x 12in - 2014</div>
@@ -171,9 +173,12 @@
     </div>
 
 
+    
+
     <div class="BLOCK3">
+    <div class="BREAKTOP"></div>
         <a href="img/6.jpg" class="image">
-            <div class="box"> <img src="img/6.jpg" class="IMG6">
+            <div class="box"> <img src="img/6.jpg" class="module">
                <div class="overbox">
                   <div class="NAME overtext">Relativity - Linocut</div>
                   <div class="tagline overtext">9in x 9in - 2014</div>
@@ -186,7 +191,7 @@
     <div class="BREAKTOP"></div>
 
     <a href="img/7.jpg" class="image">
-        <div class="box"> <img src="img/7.jpg" class="">
+        <div class="box"> <img src="img/7.jpg" class="module">
                <div class="overbox">
                   <div class="NAME overtext">Spheres of Influence - Painted mural produced in collaboration with Leah Culbertson-Faegre</div>
                   <div class="tagline overtext">9in x 9in - 2014</div>
@@ -198,7 +203,7 @@
     <div class="BREAKTOP"></div>
 
     <a href="img/8.jpg" class="image">
-        <div class="box"> <img src="img/8.jpg" class="">
+        <div class="box"> <img src="img/8.jpg" class="module">
                <div class="overbox">
                   <div class="NAME overtext">Light Washes - Digital panoramic photograph</div>
                   <div class="tagline overtext">17in x 5in - 2014</div>

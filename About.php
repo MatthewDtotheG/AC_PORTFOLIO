@@ -78,15 +78,9 @@
         <img src="img/AC.jpg" class="PROFPIC">
         
       </div>
-      <div class="BREAKBOTTOM"></div>
   </div>
 
-
-  <footer> 
-            
-
-       
-  </footer>
+      <div class="BREAKBOTTOM"></div>
 
     
 </div>

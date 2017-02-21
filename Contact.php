@@ -94,14 +94,6 @@
         
       </form>
 
-      <div id="form-messages"></div>
-      </div>
-
-    
-
-<div class="BREAK"></div>
-
-  
 
 </div>
 

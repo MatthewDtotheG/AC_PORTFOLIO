@@ -25,35 +25,14 @@ $(function(){
 
 
 
+
+
 //ANCHOR TAGS END ===============================
 
-$(document).ready(function() {
-
-  $('#IMGUP a').bind('mouseover', function(){
-      $(this).parent('a').css({position:'relative'});
-      var img = $(this).children('img');
-      $('<div />').text('FUCK YEAH').css({
-          'height': img.height(),
-          'width': img.width(),
-          'background-color': 'orange',
-          'position': 'absolute',
-          'top': 0,
-          'left': 0,
-          'opacity': 0.0
-      }).bind('mouseout', function(){
-          $(this).fadeOut('fast', function(){
-              $(this).remove();
-          });
-      }).insertAfter(this).animate({
-          'opacity': 0.5
-      }, 'fast');
-  });
-
-});
 
 
 
-// FADE IN  =========================================
+// BACKUP      =========================================
 
 
 $(document).ready(function(){  
@@ -67,7 +46,7 @@ $(document).ready(function(){
         });
     });
 
-// FADE IN END ====================================
+// BACKUP END      ====================================
 
 
 
@@ -110,9 +89,6 @@ $('#nav-icon3').click(function() {
 });
 
 
-
-
-
 // COLLAPSIBLE NAV MENU END ===============================
 
 
@@ -121,3 +97,75 @@ $('#nav-icon3').click(function() {
 
 
 
+
+
+// SCROLL ANIMATION ===============================
+
+(function($) {
+
+  /**
+   * Copyright 2012, Digital Fusion
+   * Licensed under the MIT license.
+   * http://teamdf.com/jquery-plugins/license/
+   *
+   * @author Sam Sehnert
+   * @desc A small plugin that checks whether elements are within
+   *     the user visible viewport of a web browser.
+   *     only accounts for vertical position, not horizontal.
+   */
+
+  $.fn.visible = function(partial) {
+    
+      var $t            = $(this),
+          $w            = $(window),
+          viewTop       = $w.scrollTop(),
+          viewBottom    = viewTop + $w.height(),
+          _top          = $t.offset().top,
+          _bottom       = _top + $t.height(),
+          compareTop    = partial === true ? _bottom : _top,
+          compareBottom = partial === true ? _top : _bottom;
+    
+    return ((compareBottom <= viewBottom) && (compareTop >= viewTop));
+
+  };
+    
+})(jQuery);
+
+
+
+$(window).scroll(function(event) {
+  
+  $(".module").each(function(i, el) {
+    var el = $(el);
+    if (el.visible(true)) {
+      el.addClass("come-in"); 
+    } 
+  });
+  
+});
+
+
+var win = $(window);
+var allMods = $(".module");
+
+// Already visible modules
+allMods.each(function(i, el) {
+  var el = $(el);
+  if (el.visible(true)) {
+    el.addClass("already-visible"); 
+  } 
+});
+
+win.scroll(function(event) {
+  
+  allMods.each(function(i, el) {
+    var el = $(el);
+    if (el.visible(true)) {
+      el.addClass("come-in"); 
+    } 
+  });
+  
+});
+
+
+// SCROLL ANIMATION END         ===============================

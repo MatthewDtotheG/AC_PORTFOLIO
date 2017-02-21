@@ -33,7 +33,12 @@
   height: inherit;
 }
 
-.box:hover .overbox { opacity: .9; }
+.box:hover .overbox { opacity: .9;
+
+   @media #{$brk-narrow} {
+    display: none;
+  }
+ }
 
 
 
@@ -157,24 +162,65 @@
 
 .IMGUP {
 
+    animation: fadein 2s;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s; /* Opera */
+
     -moz-animation-iteration-count: 1;
     -moz-animation-timing-function: ease-out;
-    -moz-animation-duration: 0.6s;
+    -moz-animation-duration: 0.8s;
 
     -webkit-animation-name: IMGUP;
     -webkit-animation-iteration-count: 1;
     -webkit-animation-timing-function: ease-out;
-    -webkit-animation-duration: 0.6s;
+    -webkit-animation-duration: 0.8s;
 
     animation-name: IMGUP;
     animation-iteration-count: 1;
     animation-timing-function: ease-out;
-    animation-duration: 0.6s;
+    animation-duration: 0.8s;
 }
+
+
+@keyframes IMGUP {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes IMGUP { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes IMGUP { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes IMGUP { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
 
 @-moz-keyframes IMGUP {
     0% {
-        -moz-transform: translateY(400px);
+        -moz-transform: translateY(600px);
     }
     100% {
         -moz-transform: translateY(0);
@@ -182,7 +228,7 @@
 }
 @-webkit-keyframes IMGUP {
     0% {
-        -webkit-transform: translateY(400px);
+        -webkit-transform: translateY(600px);
     }
     100% {
         -webkit-transform: translateY(0);
@@ -190,7 +236,7 @@
 }
 @keyframes IMGUP {
     0% {
-        transform: translateY(400px);
+        transform: translateY(600px);
     }
     100% {
         transform: translateY(0);
@@ -200,7 +246,7 @@
 
 .PROFPIC {
   @include span-columns(5);
-  margin-left: 20px;
+  margin-left: 30px;
   margin-top: 30px;
   border-radius: 3px;
 
@@ -225,6 +271,18 @@
 
 
 
+
+.come-in {
+  transform: translateY(150px);
+  animation: come-in 0.8s ease forwards;
+}
+.come-in:nth-child(odd) {
+  animation-duration: 0.6s; /* So they look staggered */
+}
+
+@keyframes come-in {
+  to { transform: translateY(0); }
+}
 
 
 
