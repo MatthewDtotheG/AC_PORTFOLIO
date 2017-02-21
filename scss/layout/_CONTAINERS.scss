@@ -12,7 +12,7 @@
   
 
   @media #{$brk-narrow} {
-    @include outer-container(85%);
+    @include outer-container(90%);
   }
 
   @media #{$brk-small} {
@@ -41,7 +41,8 @@
 
 
   @media #{$brk-narrow} {
-    @include outer-container(100%);
+    @include outer-container(90%);
+    background-color: #F6F6F6;
   }
 
 }
@@ -54,6 +55,11 @@
   @include span-columns(12);
 }
 
+.BREAKBOTTOM {
+  margin-bottom: 100px;
+  @include span-columns(12);
+}
+
 .BREAKTOP {
   margin-bottom: 55px;
   z-index: 900000;
@@ -63,6 +69,10 @@
     margin-bottom: 130px;
   }
 
+   @media #{$brk-small} {
+    margin-bottom: 30px;
+  }
+
 }
 
 .BREAKTOP1 {
@@ -70,6 +80,13 @@
   z-index: 900000;
   @include span-columns(12);
 }
+
+.SIZE {
+  background-color: white;
+  @include span-columns(12);
+}
+
+
 
 
 
@@ -96,8 +113,13 @@ form {
   @include span-columns(6);
 
   @media #{$brk-narrow} {
+    @include span-columns(6);
+    padding: 0px;
+  }
+
+  @media #{$brk-small} {
     @include span-columns(12);
-    padding: 0px 20px;
+    padding: 0px;
   }
 }
 
@@ -105,8 +127,13 @@ form {
    @include span-columns(6);
 
    @media #{$brk-narrow} {
+    @include span-columns(6);
+    padding: 0px;
+  }
+
+  @media #{$brk-small} {
     @include span-columns(12);
-    padding: 0px 20px;
+    padding: 0px;
   }
 }
 
@@ -142,44 +169,10 @@ input {
   font-weight: 600;
   border: 1px, black, solid;
 
-   }
-
-
-/* CONTACT FORM END ==================*/
-
-
-
-
-
-/* MAIN BODY CONTAINERS  END  ====================*/
-
-
-
-
-
-
-/*
-
-.PROFPIC {
-  border-radius: 50%;
-  @include span-columns(4);
-  float: left;
-  position: relative;
-  margin: 10px;
-
-  @media #{$brk-narrow} {
-    width: 45%;
-    float: none;
-    position: relative;
-    display: block;
-    margin: auto; 
-    margin-bottom: 45px;
-
-  }
-
 }
 
-*/
+/* CONTACT FORM END=====================*/
+
 
 
 

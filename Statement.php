@@ -14,10 +14,8 @@
 
 
 
-
-
+<body>
 <div class="sidebar">
-
         <a href="/">
         <img class="LOGO1" src="img/LOGO.png">
         </a>
@@ -25,12 +23,12 @@
   <div id="NAVMENU">
           <div class="nav-mobile-wrap">
             <a class="MENUITEM" href="/">Portfolio</a> <span></span>
+            <a class="MENUITEM" href="/Written.php">Written</a> <span></span>
             <a class="MENUITEM" href="/Instagram.php">Instagram</a> <span></span>
             <a class="MENUITEM" href="/About.php">About</a> <span></span>
             <a class="MENUITEM" href="/Contact.php">Contact</a> <span></span>
           </div>
-    
-
+  </div>
           <a class="toggle-nav">
             <div id="nav-icon3">
               <span></span>
@@ -63,6 +61,8 @@
 <div class="NEW2">
 
 <div class="BREAKTOP"></div>
+
+<div class="SIZE">
       <div class="PANDC">
         <h2>PERCEPTION 
         <br>AND CONCEPTION</h2>
@@ -72,15 +72,16 @@
         </p>
         <p class="PQUOTE">
             “In a phrase, perception and conception are inseparable. Hence, knowledge shapes perception and visa versa.” 
+        </p>
         <p>
             – Davis, B., Luce-Kapler, R., Sumara, D. (2008) . Knowing Looks. In Engaging Minds: Changing teaching in complex times.
         </p>
         <p>
-            Charles “Andy” Corbett
+            Charles A. Corbett
         </p>
       </div>
 
-    
+  </div>
 
 <div class="BREAK"></div>
 

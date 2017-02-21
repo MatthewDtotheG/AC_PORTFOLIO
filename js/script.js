@@ -27,19 +27,45 @@ $(function(){
 
 //ANCHOR TAGS END ===============================
 
+$(document).ready(function() {
+
+  $('#IMGUP a').bind('mouseover', function(){
+      $(this).parent('a').css({position:'relative'});
+      var img = $(this).children('img');
+      $('<div />').text('FUCK YEAH').css({
+          'height': img.height(),
+          'width': img.width(),
+          'background-color': 'orange',
+          'position': 'absolute',
+          'top': 0,
+          'left': 0,
+          'opacity': 0.0
+      }).bind('mouseout', function(){
+          $(this).fadeOut('fast', function(){
+              $(this).remove();
+          });
+      }).insertAfter(this).animate({
+          'opacity': 0.5
+      }, 'fast');
+  });
+
+});
 
 
 
 // FADE IN  =========================================
 
-$(document).scroll(function() {
-  var y = $(this).scrollTop();
-  if (y > 550) {
-    $("#BACKUP").fadeIn();
-  } else {
-    $("#BACKUP").fadeOut();
-  }
-});
+
+$(document).ready(function(){  
+        $("#BACKUP").hide();                  
+        $(window).scroll(function(){                          
+            if ($(this).scrollTop() > 500) {
+                $('#BACKUP').fadeIn();
+            } else {
+                $('#BACKUP').fadeOut();
+            }
+        });
+    });
 
 // FADE IN END ====================================
 
@@ -82,6 +108,8 @@ $(document).ready(function(){
 $('#nav-icon3').click(function() {
     $('#NAVMENU').fadeToggle(300);
 });
+
+
 
 
 

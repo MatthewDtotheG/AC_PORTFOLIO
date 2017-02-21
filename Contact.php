@@ -25,9 +25,11 @@
   <div id="NAVMENU">
           <div class="nav-mobile-wrap">
             <a class="MENUITEM" href="/">Portfolio</a> <span></span>
+            <a class="MENUITEM" href="/Written.php">Written</a> <span></span>
             <a class="MENUITEM" href="/Instagram.php">Instagram</a> <span></span>
             <a class="MENUITEM" href="/About.php">About</a> <span></span>
             <a class="MENUITEM" href="/Contact.php">Contact</a> <span></span>
+          </div>
   </div>
     
 
@@ -63,7 +65,7 @@
 <div class="NEW2">
 
 <div class="BREAKTOP"></div>
-      <div class="PANDC">
+      <div class="CONTACT">
         <h2>CONTACT</h2>
 
         <p>

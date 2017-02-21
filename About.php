@@ -14,8 +14,6 @@
 
 
 <body>
-
-
 <div class="sidebar">
 
         <a href="/">
@@ -25,10 +23,12 @@
   <div id="NAVMENU">
           <div class="nav-mobile-wrap">
             <a class="MENUITEM" href="/">Portfolio</a> <span></span>
+            <a class="MENUITEM" href="/Written.php">Written</a> <span></span>
             <a class="MENUITEM" href="/Instagram.php">Instagram</a> <span></span>
             <a class="MENUITEM" href="/About.php">About</a> <span></span>
             <a class="MENUITEM" href="/Contact.php">Contact</a> <span></span>
           </div>
+  </div>
     
 
           <a class="toggle-nav">
@@ -63,25 +63,40 @@
 <div class="NEW2">
 
 <div class="BREAKTOP"></div>
+  <div class="SIZE">
       <div class="PANDC">
         <h2>ABOUT</h2>
 
         <p>
             Andy Corbett is an emerging artist exploring visual perceptions of reality primarily through the application of oil paint, mixed media, and photography. Graduating from Missouri State University in 2015, he received a Bachelors Degree of Fine Arts in Painting and a Bachelors Degree of Science in Art Education. His interests in verbal and visual communications, combined with a curiosity for optical illusions, led him to question how humans construct their interpretation of reality, relative to their physiological and psychological makeup. The body of work shown here depicts various possible solutions to the visual interpretation of reality, focusing on the structure of the eye and the synthesis of visual information from it. These take form in diagrammatic patterns, panoramic paintings concentrated on the individual viewer’s experience, and photos that exhibit several slices of time within a single image. 
         </p>
-        <p>
+
+        <p class="PROFBLOCK">
             In his personal life, Andy Corbett resides in Springfield, MO, with his girlfriend in the artistic downtown area.  Andy currently works as both an Associate Trainer at Panera Bread as well as a bartender and instructor at RSVPaint. During this time after graduating with his Bachelors degrees, he continues to pursue different interpretations of reality by studying quantum theory, psychology, sensory research, and various spiritual perspectives. His aspirations include to graduate with his MFA in Painting/Mixed Media and to inspire others as an educator at the graduate level. 
         </p>
+
+        <img src="img/AC.jpg" class="PROFPIC">
         
       </div>
+      <div class="BREAKBOTTOM"></div>
+  </div>
+
+
+  <footer> 
+            
+
+       
+  </footer>
 
     
+</div>
 
-<div class="BREAK"></div>
+
+
 
   
 
-</div>
+
 
 
 

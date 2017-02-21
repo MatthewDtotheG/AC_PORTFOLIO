@@ -31,11 +31,19 @@ a {
   font-family: 'Montserrat', sans-serif;
 }
 
+a:focus {
+    outline: none;
+}
+
 p {
   color: black;
   font-size: 20px;
   font-family: "Yrsa";
   opacity: .7;
+
+  @media #{$brk-narrow} {
+    font-size: 16px;
+  }
   
 }
 
@@ -55,6 +63,7 @@ p {
 }
 
 .social,
+.socialBTM,
 .UPARROW,
 .PBLOCK  {
   opacity: .5;
@@ -63,6 +72,7 @@ p {
 
 
 a img.social:hover,
+.socialBTM:hover,
 .UPARROW:hover,
 .PBLOCK:hover  {
   opacity: 1;
@@ -75,6 +85,17 @@ a img.social:hover,
   font-size: 25px;
   opacity: 1;
   padding: 15px 100px;
+
+  @media #{$brk-narrow} {
+    font-size: 18px;
+
+    
+  }
+
+   @media #{$brk-small} {
+    font-size: 18px;
+    padding: 15px 40px;
+  }
 }
 
 .PANDC {
@@ -84,6 +105,13 @@ a img.social:hover,
   -moz-animation: fadein 2s; /* Firefox */
   -webkit-animation: fadein 2s; /* Safari and Chrome */
   -o-animation: fadein 2s; /* Opera */
+
+  
+  @media #{$brk-narrow} {
+    padding: 0px 20px;
+    margin-top: 40px;
+    
+  }
 }
 @keyframes fadein {
     from {
@@ -119,12 +147,30 @@ a img.social:hover,
 }
 
 
+
+.CONTACT {
+  padding: 0px 80px;
+  text-align: left;
+  animation: fadein 2s;
+  -moz-animation: fadein 2s; /* Firefox */
+  -webkit-animation: fadein 2s; /* Safari and Chrome */
+  -o-animation: fadein 2s; /* Opera */
+  
+  @media #{$brk-narrow} {
+    padding: 0px;
+    margin-top: 40px;
+    
+  }
+}
+
+
 hr {
-  width: 45%;
+  width: 70%;
   height: 2px;
   background-color: black;
-  margin: 80px auto;
+  margin: 200px auto;
 }
+
 
 
 
@@ -132,6 +178,7 @@ hr {
 button {
   color: black
 }
+
 
 .title {
   font-family: 'Montserrat', sans-serif;
@@ -168,13 +215,24 @@ button {
     opacity: 0;
 }
 
+
+
 footer {
-  background-color: $color-sec;
-  left: 0px;
-  bottom: 0px;
-  height: 250px;
-  width: 100%;
-  }
+  @include span-columns(12);
+  position: relative;
+  background-color: $color-prim;
+  height: 150px;
+  bottom: 0;
+
+}
+
+
+
+
+
+
+
+
 
 
 

@@ -61,12 +61,14 @@
 /* LOGO =========================== opacity: .2;*/
 .LOGO1 {
     margin-top: 55px;
+    margin-left: 0px;
     height: 74px;
     width: 120px;
     transition: all ease .5s;
 
     @media #{$brk-narrow} {
-        margin-top: 20px;
+        margin-top: 16px;
+        margin-left: 38px;
         height: 49px;
         width: 80px;
       }
@@ -74,6 +76,8 @@
     @media #{$brk-small} {
         height: 34px;
         width: 55px;
+        margin-top: 20px;
+        margin-left: 5%;
     }
   }
 
