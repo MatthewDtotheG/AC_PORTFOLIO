@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
   <head>
-  	<title>About - ANDY CORBETT</title>
+  	<title>About</title>
+    <link rel="shortcut icon" href="img/LOGO1.png"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta property="og:image" content="" />
     <meta property="og:description" content="" />
@@ -78,9 +79,31 @@
         <img src="img/AC.jpg" class="PROFPIC">
         
       </div>
+
+      <div class="BREAKTOP"></div>
   </div>
 
-      <div class="BREAKBOTTOM"></div>
+  <ul class="SocialWrapBTM">
+                <a href='https://twitter.com/CACorbett500'>
+                  <img class="socialBTM" src="img/twitter.png">
+                </a>
+                <a href='https://www.facebook.com/andy.corbett.180'>
+                  <img class="socialBTM" src="img/fb.png">
+                </a>
+                <a href='https://www.instagram.com/andymancann'>
+                  <img class="socialBTM" src="img/insta.png">
+                </a>
+                <a href="mailto:cacorbett500@gmail.com">
+                  <img class="socialBTM" src="img/email.png">
+                </a>
+    </ul>
+
+
+<footer> 
+
+    <img src='img/LOGO.png'><br>Charles A Corbett 2017 &copy
+
+</footer>
 
     
 </div>

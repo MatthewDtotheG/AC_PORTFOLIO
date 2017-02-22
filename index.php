@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html>
   <head>
-  	<title>ANDY CORBETT</title>
+  	<title>Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta property="og:image" content="" />
+    <link rel="shortcut icon" href="img/LOGO1.png"/>
     <meta property="og:description" content="" />
     <meta property="og:title" content="ANDY CORBETT" />
     <meta property="og:url"content="" />
@@ -18,11 +19,12 @@
 
 
 
+
 <div class="sidebar">
 
-        <a href="/">
+<a href="/">
         <img class="LOGO1" src="img/LOGO.png">
-        </a>
+</a>
 
 
   <div id="NAVMENU">
@@ -213,7 +215,7 @@
     </a>
 
     </div>
-</div>
+
 
 
 
@@ -232,9 +234,11 @@
                 </a>
     </ul>
 
-    <footer> <a>contact</a> <a>about</a> </footer>
+    <footer> 
 
-    <div class="BREAK"></div>
+    <img src='img/LOGO.png'><br>Charles A Corbett 2017 &copy
+
+    </footer>
 
 </div>
 

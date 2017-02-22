@@ -88,6 +88,12 @@ $('#nav-icon3').click(function() {
     $('#NAVMENU').fadeToggle(300);
 });
 
+$(document).ready(function(){
+$("#nav-icon3").click(function () {
+    $("body").toggleClass("FIXED");
+  });
+});
+
 
 // COLLAPSIBLE NAV MENU END ===============================
 

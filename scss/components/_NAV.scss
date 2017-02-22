@@ -57,6 +57,8 @@
         background: $color-prim;
         margin-left: 0px;
         position: relative;
+
+        animation-iteration-count: 1;
        }
 
       @media #{$brk-small} {
@@ -92,6 +94,7 @@
         transform: translateX(-250px);
     }
 }
+
 
 
 

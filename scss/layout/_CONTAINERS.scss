@@ -37,12 +37,12 @@
   @include outer-container(72%);
   margin-right: 25px;
   margin-left: 270px;
-  background-color: white;
+  
 
 
   @media #{$brk-narrow} {
     @include outer-container(90%);
-    background-color: #F6F6F6;
+    background-color: $color-prim;
   }
 
 }
@@ -86,6 +86,8 @@
 }
 
 .SIZE {
+  padding-top: 40px;
+  padding-bottom: 40px;
   background-color: white;
   @include span-columns(12);
 }
