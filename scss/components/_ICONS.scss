@@ -67,17 +67,17 @@
     transition: all ease .5s;
 
     @media #{$brk-narrow} {
-        margin-top: 16px;
+        margin-top: 30px;
         margin-left: 38px;
-        height: 49px;
-        width: 80px;
+        height: 39px;
+        width: 70px;
       }
 
     @media #{$brk-small} {
         height: 28px;
         width: 45px;
-        margin-top: 20px;
-        margin-left: 5%;
+        margin-top: 33px;
+        margin-left: 5.5%;
     }
   }
 

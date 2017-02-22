@@ -5,6 +5,10 @@
   position: relative;
 }
 
+img {
+  width: 100%;
+}
+
 
 .box {
   cursor: pointer;
@@ -116,7 +120,7 @@
     cursor: pointer;
 
     @media #{$brk-small} {
-    margin-top: 30px;
+    margin-top: 0px;
   }
 
 }
@@ -124,7 +128,8 @@
 .BLOCK1 {
    @include span-columns(4);
    float: right;
-
+   margin-right: 0px;
+   
    @media #{$brk-narrow} {
     @include span-columns(5);
     float: right;
@@ -149,7 +154,7 @@
 .BLOCK3 {
    @include span-columns(5);
    float: right;
-
+   margin-right: 0px;
     @media #{$brk-small} {
     @include span-columns(12);
   }

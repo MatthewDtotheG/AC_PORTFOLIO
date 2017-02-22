@@ -63,7 +63,6 @@
         margin-left: 0px;
         background: $color-prim;
         height: 80px;
-        position: relative;
        }
     }
 
@@ -105,6 +104,8 @@
 }
 
 
+
+
 .social {
   height: 19px;
   width: 19px;
@@ -118,7 +119,6 @@
 }
 
 
-
 .SocialWrap {
   position: fixed;
   bottom: 0;
@@ -127,9 +127,12 @@
   z-index: 999;
 
   @media #{$brk-narrow} {
-      display: none;
+    display: none;
   }
 }
+
+
+
 
 #BACKUP {
   height: 40px;
@@ -143,6 +146,10 @@
   background-color: white;
   z-index: 1;  
   transition: all ease .3s;
+
+  @media #{$brk-narrow} {
+    display: none !important;
+  }
 }
 
 

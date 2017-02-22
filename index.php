@@ -140,7 +140,7 @@
               <div class="box"> <img src="img/4.jpg" class="module">
                <div class="overbox">
                   <div class="NAME overtext">Day Hike II, Oil paint and pen on wood</div>
-                  <div class="tagline overtext">24in. x 12in. x 8.25in - 2014</div>
+                  <div class="tagline overtext">24in x 12in x 8.25in - 2014</div>
                </div>
               </div>
         </a>
@@ -194,7 +194,7 @@
         <div class="box"> <img src="img/7.jpg" class="module">
                <div class="overbox">
                   <div class="NAME overtext">Spheres of Influence - Painted mural produced in collaboration with Leah Culbertson-Faegre</div>
-                  <div class="tagline overtext">9in x 9in - 2014</div>
+                  <div class="tagline overtext">25ft x 8ft - 2016</div>
                </div>
         </div>
 
@@ -214,6 +214,25 @@
 
     </div>
 </div>
+
+
+
+    <ul class="SocialWrapBTM">
+                <a href='https://twitter.com/CACorbett500'>
+                  <img class="socialBTM" src="img/twitter.png">
+                </a>
+                <a href='https://www.facebook.com/andy.corbett.180'>
+                  <img class="socialBTM" src="img/fb.png">
+                </a>
+                <a href='https://www.instagram.com/andymancann'>
+                  <img class="socialBTM" src="img/insta.png">
+                </a>
+                <a href="mailto:cacorbett500@gmail.com">
+                  <img class="socialBTM" src="img/email.png">
+                </a>
+    </ul>
+
+    <footer> <a>contact</a> <a>about</a> </footer>
 
     <div class="BREAK"></div>
 

@@ -53,6 +53,10 @@
 .BREAK {
   margin-bottom: 300px;
   @include span-columns(12);
+
+  @media #{$brk-narrow} {
+    display: none;
+  }
 }
 
 .BREAKBOTTOM {
@@ -66,11 +70,11 @@
   @include span-columns(12);
 
   @media #{$brk-narrow} {
-    margin-bottom: 130px;
+    margin-bottom: 55px;
   }
 
    @media #{$brk-small} {
-    margin-bottom: 50px;
+    margin-bottom: 55px;
   }
 
 }

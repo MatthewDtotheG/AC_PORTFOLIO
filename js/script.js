@@ -92,8 +92,11 @@ $('#nav-icon3').click(function() {
 // COLLAPSIBLE NAV MENU END ===============================
 
 
-
-
+$(document).ready(function(){
+  if( isMobile.iOS() || isMobile.Android() ){
+    $('Instagram.php').attr('href', 'https://www.instagram.com/andymancann');
+  }
+});
 
 
 
