@@ -196,6 +196,7 @@ button {
   border-bottom: 2px solid transparent;
   transition: all ease-in-out .4s;
 
+  
   @media #{$brk-narrow} {
     font-size: 28px;
   }
@@ -233,7 +234,7 @@ footer {
   margin-top: 125px;
   margin-bottom: 35px;
   word-spacing: 0px;
-  font-size: 12px;
+  font-size: 10px;
   opacity: .5;
   @media #{$brk-narrow} {
     
@@ -250,8 +251,8 @@ footer {
 }
 
 footer img {
-  height: 20px;
-  width: 35px;
+  height: 18px;
+  width: 30px;
 }
 
 footer a {

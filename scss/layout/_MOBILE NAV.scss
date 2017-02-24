@@ -2,17 +2,18 @@
 /* MOBILE MENU  calc(100vh - 50px) ====================*/  
 
 
-@media (max-width: 768px) {
+@media (max-width: 950px) {
  
   
   #NAVMENU {
     width: 100%;
     position: fixed;
     text-align: center;
-    background: $color-prim;
+    
+    background: rgba(245, 245, 245, 0.9); 
     margin-top: 0px;
     display: none;
-   
+
   }
 
 
@@ -47,7 +48,7 @@
     position: absolute;
     margin: 15px auto;
     margin-top: 38px;
-    margin-right: 38px;
+    margin-right: 5%;
     -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
     -o-transform: rotate(0deg);

@@ -129,11 +129,12 @@ img {
    @include span-columns(4);
    float: right;
    margin-right: 0px;
+
+
    
    @media #{$brk-narrow} {
     @include span-columns(5);
     float: right;
-   margin-top: 80px;
    @include omega();
   }
 

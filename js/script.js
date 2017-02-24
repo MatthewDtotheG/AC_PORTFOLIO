@@ -15,7 +15,7 @@ $(function(){
           window.location.hash = target;
       });
       
-      if(windowWidth < 769){
+      if(windowWidth < 950){
         $('#nav-icon3').removeClass('open')
         $('#NAVMENU').fadeOut(300)
      }
@@ -103,7 +103,6 @@ $(document).ready(function(){
     $('Instagram.php').attr('href', 'https://www.instagram.com/andymancann');
   }
 });
-
 
 
 
