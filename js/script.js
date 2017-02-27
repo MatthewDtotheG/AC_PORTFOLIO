@@ -175,5 +175,4 @@ win.scroll(function(event) {
   
 });
 
-
 // SCROLL ANIMATION END         ===============================
