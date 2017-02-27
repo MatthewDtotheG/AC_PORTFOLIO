@@ -261,6 +261,7 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/3.0.3/handlebars.runtime.min.js"></script>
+<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
 <script src="js/jquery.instashow.min.js"></script>
 <script src="js/modaal.js"></script>
 <script src="js/script.js"></script>
