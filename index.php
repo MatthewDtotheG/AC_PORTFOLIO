@@ -108,13 +108,14 @@
 
       <div class="BREAKTOP"></div>
 
-        <a href="img/1.jpg" class="image">
-          <div class="box"> <img src="img/1.jpg" class="module">
+        <a href="img/1.jpg" class="image box">
+          <img src="img/1.jpg" class="module ">
+          
            <div class="overbox">
               <div class="NAME overtext"> El Morro - Oil paint, mixed media on wood</div>
               <div class="tagline overtext"> 26.5in x 18.25in x 12in - 2015 </div>
            </div>
-          </div>
+          
         </a>
 
     </div>
@@ -122,13 +123,13 @@
 
       <div class="BLOCK1">
 
-        <a href="img/2.jpg" class="image">
-            <div class="box"> <img src="img/2.jpg"> 
+        <a href="img/2.jpg" class="image box">
+           <img src="img/2.jpg"> 
                <div class="overbox">
                   <div class="NAME overtext">Cliff-top Kiva - Oil paint, mixed media on wood</div>
-                  <div class="tagline overtext">21in x 30in x 60in - 2015</div>
+                  <div class="tagline overtext">21in x 30in x 60in - 2015
+                  </div>
                </div>
-            </div>
         </a>
 
       </div>
@@ -138,24 +139,25 @@
 
     <div class="BREAKTOP"></div>
 
-        <a href="img/4a.jpg" class="image">
-              <div class="box"> <img src="img/4.jpg" class="module">
+        <a href="img/4a.jpg" class="image box">
+          <img src="img/4.jpg" class="module">
                <div class="overbox">
-                  <div class="NAME overtext">Day Hike II, Oil paint and pen on wood</div>
-                  <div class="tagline overtext">24in x 12in x 8.25in - 2014</div>
-               </div>
+                  <div class="NAME overtext">Day Hike II - Oil paint and pen on wood</div>
+                  <div class="tagline overtext">24in x 12in x 8.25in - 2014
+                  </div>
+
               </div>
         </a>
 
 
     <div class="BREAKTOP"></div>
 
-     <a href="img/3a.jpg" class="image">
-        <div class="box"> <img src="img/3.jpg" class="module">
+     <a href="img/3a.jpg" class="image box">
+      <img src="img/3.jpg" class="module">
            <div class="overbox">
               <div class="NAME overtext">Day Hike III - Oil Paint and pen on wood</div>
-              <div class="tagline overtext">24.5in x 13.25in x 8.25in - 2014</div>
-           </div>
+              <div class="tagline overtext">24.5in x 13.25in x 8.25in - 2014
+              </div>
           </div>
     </a>
 
@@ -164,13 +166,13 @@
 
     <div class="BLOCK2">
     <div class="BREAKTOP"></div>
-          <a href="img/5.jpg" class="image">
-              <div class="box"> <img src="img/5.jpg" class="module">
+          <a href="img/5.jpg" class="image box">
+            <img src="img/5.jpg" class="module">
+
                  <div class="overbox">
                     <div class="NAME overtext">Horse’s Head - Linocut</div>
                     <div class="tagline overtext">9in x 12in - 2014</div>
-                 </div>
-              </div>
+                </div>
           </a>
     </div>
 
@@ -179,38 +181,38 @@
 
     <div class="BLOCK3">
     <div class="BREAKTOP"></div>
-        <a href="img/6.jpg" class="image">
-            <div class="box"> <img src="img/6.jpg" class="module">
+        <a href="img/6.jpg" class="image box">
+          <img src="img/6.jpg" class="module">
+
                <div class="overbox">
                   <div class="NAME overtext">Relativity - Linocut</div>
                   <div class="tagline overtext">9in x 9in - 2014</div>
                </div>
-            </div>
         </a>
     </div>
 
 
     <div class="BREAKTOP"></div>
 
-    <a href="img/7.jpg" class="image">
-        <div class="box"> <img src="img/7.jpg" class="module">
+    <a href="img/7.jpg" class="image box">
+      <img src="img/7a.jpg" class="module">
+
                <div class="overbox">
                   <div class="NAME overtext">Spheres of Influence - Painted mural produced in collaboration with Leah Culbertson-Faegre</div>
                   <div class="tagline overtext">25ft x 8ft - 2016</div>
                </div>
-        </div>
 
     </a>
 
     <div class="BREAKTOP"></div>
 
-    <a href="img/8.jpg" class="image">
-        <div class="box"> <img src="img/8.jpg" class="module">
+    <a href="img/8.jpg" class="image box">
+      <img src="img/8.jpg" class="module">
+
                <div class="overbox">
                   <div class="NAME overtext">Light Washes - Digital panoramic photograph</div>
                   <div class="tagline overtext">17in x 5in - 2014</div>
                </div>
-        </div>
 
     </a>
 
@@ -261,9 +263,10 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/3.0.3/handlebars.runtime.min.js"></script>
-<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
 <script src="js/jquery.instashow.min.js"></script>
 <script src="js/modaal.js"></script>
+<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+
 <script src="js/script.js"></script>
 
 

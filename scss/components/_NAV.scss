@@ -68,6 +68,15 @@
        }
     }
 
+.sidebar.FIXED {
+
+  @media #{$brk-narrow} {
+     position: fixed !important;
+     
+  }
+}
+
+
 
 @-moz-keyframes sidebar {
     100% {

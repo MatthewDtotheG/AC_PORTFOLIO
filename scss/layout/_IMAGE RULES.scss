@@ -251,7 +251,8 @@ img {
 }
 
 
-.PROFPIC {
+.PROFPIC,
+.CREDIT {
   @include span-columns(5);
   margin-left: 30px;
   margin-top: 30px;
@@ -262,10 +263,17 @@ img {
     margin-left: 25%;
   }
 
+  @media #{$brk-small} {
+    @include span-columns(8);
+    margin-left: 17%;
+    
+  }
+
 }
 
 
-.PROFBLOCK {
+.PROFBLOCK, 
+ {
   @include span-columns(6);
   margin-top: 30px;
 
@@ -276,6 +284,15 @@ img {
 
 }
 
+.center {
+  text-align: center;
+}
+
+.CREDIT {
+  margin-top: 5px;
+  font-size: 10px;
+  font-family: 'Montserrat', sans-serif;
+}
 
 
 

@@ -4,7 +4,7 @@
   	<title>Contact</title>
     <link rel="shortcut icon" href="img/LOGO1.png"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <<meta property="og:image" content="http://andycorbettart.com/img/1.jpg" />
+    <meta property="og:image" content="http://andycorbettart.com/img/1.jpg" />
     <meta property="og:description" content="" />
     <meta property="og:title" content="Andy Corbett Art" />
     <meta property="og:url"content="http://andycorbettart.com" />
@@ -70,7 +70,7 @@
         <h2>CONTACT</h2>
 
         <p>
-            Say Hello! 
+            Have questions or feedback? Feel free to reach out!
         </p>
 
         <form id="ajax-contact" method="post" action="mailer.php">

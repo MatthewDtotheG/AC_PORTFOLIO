@@ -204,6 +204,51 @@
         </p>
 
         <p> Charles A. Corbett</p>
+
+        <div class="BREAKTOP"></div>
+        <div class="BREAKTOP"></div>
+
+        <p class="center">
+           References:
+        </p>
+<p>Albers, J. (2013) . Interaction of Color: 50th Anniversary Edition (4th ed.). New Haven, CT: Yale
+University Press.
+</p>
+<p>
+Baudrlillard, J. (2010) . Simulacra and Simulation. (S. F. Glaser, Trans.). Ann Arbor, Michigan:
+The University of Michigan Press. 
+</p>
+<p>
+Davis, B., Luce-Kapler, R., Sumara, D. (2008) . Knowing Looks. In Engaging Minds: Changing
+teaching in complex times (2nd ed.) (pp. 19-35) . New York, NY: Routledge.
+</p>
+<p>
+Duncum, P. (2012) . Roaming the rhizomic playing field of visual culture in art education, Visual
+Inquiry: Learning & Teaching Art. 2(1), 111-122.
+</p>
+<p>
+Hofstadter, A., Kuhns, R. (Eds.). (1964) . Philosophies of Art and Beauty: Selected readings in
+aesthetics from Plato to Heidegger. Chicago, IL: The University of Chicago Press.
+</p>
+<p>
+Macknik, S. L., Martinez-Conde, S. (2013, Fall) . Colors Out of Space. Scientific American
+Mind: Special Collector’s Edition: 187 Illusions, 22(3), 34-43.
+</p>
+<p>
+Martinez-Conde, S., Macknik, S. L. (2013, Fall) . All Deceptions Great and Small. Scientific
+American Mind: Special Collector’s Edition: 187 Illusions, 22(3), 14-17.
+</p>
+<p>
+Nave, C. R. (2014) . HyperPhysics. Retrieved from http://hyperphysics.phy
+astr.gsu.edu/hbase/hph.html
+Pappas, J. (2012) . Yayoi Kusama, Hi-Fructose, 25, 52-55.
+</p>
+<p>
+Raftopoulos, A. (2008) . Perceptual Systems and Realism. Synthese. 164(1), 61-91.
+Sontag, S. (1966) . Against Interpretation: And other essays. New York, NY: Farrar, Straus &
+Giroux.
+</p> 
+        </p>
       
       </div>
   </div>

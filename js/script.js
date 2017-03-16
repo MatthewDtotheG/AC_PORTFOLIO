@@ -31,6 +31,19 @@ $(function(){
 
 
 
+var fooReveal = {
+  origin : 'bottom',
+  delay    : 100,
+  distance : '90px',
+  easing   : 'ease-in-out',
+  
+};
+
+window.sr = ScrollReveal();
+sr.reveal('.module', fooReveal);
+
+
+
 
 // BACKUP      =========================================
 
@@ -88,21 +101,16 @@ $('#nav-icon3').click(function() {
     $('#NAVMENU').fadeToggle(300);
 });
 
+
 $(document).ready(function(){
 $("#nav-icon3").click(function () {
-    $("body").toggleClass("FIXED");
+    $(".sidebar").toggleClass("FIXED");
   });
 });
 
 
 // COLLAPSIBLE NAV MENU END ===============================
 
-
-$(document).ready(function(){
-  if( isMobile.iOS() || isMobile.Android() ){
-    $('Instagram.php').attr('href', 'https://www.instagram.com/andymancann');
-  }
-});
 
 
 
@@ -111,16 +119,6 @@ $(document).ready(function(){
 
 
 
-var fooReveal = {
-  origin : 'bottom',
-  delay    : 100,
-  distance : '90px',
-  easing   : 'ease-in-out',
-  
-};
-
-window.sr = ScrollReveal();
-sr.reveal('.module', fooReveal);
 
 
 // SCROLL ANIMATION END         ===============================

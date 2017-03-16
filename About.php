@@ -77,7 +77,7 @@
         </p>
 
         <img src="img/AC.jpg" class="PROFPIC">
-        
+          <div class="CREDIT">Credit Anton Pleshka</div>
       </div>
 
       <div class="BREAKTOP"></div>
