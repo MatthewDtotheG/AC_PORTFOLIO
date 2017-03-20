@@ -16,19 +16,23 @@
 
 
 <body id="TOP">
+
+
 <div class="sidebar">
-        <a href="/">
+
+<a href="/">
         <img class="LOGO1" src="img/LOGO.png">
-        </a>
+</a>
+
 
   <div id="NAVMENU">
-          <div class="nav-mobile-wrap">
-            <a class="MENUITEM" href="/">Portfolio</a> <span></span>
-            <a class="MENUITEM" href="/Written.php">Written</a> <span></span>
-            <a class="MENUITEM" href="/Instagram.php">Instagram</a> <span></span>
-            <a class="MENUITEM" href="/About.php">About</a> <span></span>
-            <a class="MENUITEM" href="/Contact.php">Contact</a> <span></span>
-          </div>
+      <div class="nav-mobile-wrap">
+       <a class="MENUITEM" href="/">Portfolio</a> <span></span>
+       <a class="MENUITEM" href="/Written.php">Written</a> <span></span>
+       <a class="MENUITEM" href="/Instagram.php">Instagram</a> <span></span>
+       <a class="MENUITEM" href="/About.php">About</a> <span></span>
+       <a class="MENUITEM" href="/Contact.php">Contact</a> <span></span>
+      </div>
   </div>
           <a class="toggle-nav">
             <div id="nav-icon3">
@@ -38,8 +42,7 @@
               <span></span>
             </div>
           </a>
-  </div>
-
+</div>
 
     <ul class="SocialWrap">
                 <a href='https://twitter.com/CACorbett500'>
@@ -298,6 +301,8 @@ Giroux.
 <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/3.0.3/handlebars.runtime.min.js"></script>
 <script src="js/jquery.instashow.min.js"></script>
 <script src="js/modaal.js"></script>
+<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+
 <script src="js/script.js"></script>
 
 

@@ -33,7 +33,11 @@ $(function(){
 
 
 
-//SCROLL ANIMATION ===============================
+
+
+// SCROLL ANIMATION ===============================
+
+
 
 var fooReveal = {
   origin : 'bottom',
@@ -47,7 +51,8 @@ window.sr = ScrollReveal();
 sr.reveal('.module', fooReveal);
 
 
-//SCROLL ANIMATION END ===============================
+// SCROLL ANIMATION END         ===============================
+
 
 
 
@@ -56,7 +61,7 @@ sr.reveal('.module', fooReveal);
 // BACKUP      =========================================
 
 
- 
+
         $("#BACKUP").hide();                  
         $(window).scroll(function(){                          
             if ($(this).scrollTop() > 500) {
@@ -65,7 +70,7 @@ sr.reveal('.module', fooReveal);
                 $('#BACKUP').fadeOut();
             }
         });
- 
+
 
 // BACKUP END      ====================================
 
@@ -83,23 +88,23 @@ $(function(){
 });
 
 
-// MODAL ===============================
 
 
-$('.image').modaal({
+
+  $('.image').modaal({
     type: 'image',
     background: 'white',
     overlay_opacity: '0.8',
 
 });
 
-// MODAL END ===============================
+
 
 
 // COLLAPSIBLE NAV MENU ===============================
 
 
-$('#nav-icon3').click(function(){
+  $('#nav-icon3').click(function(){
     $(this).toggleClass('open');
   });
 
@@ -117,6 +122,7 @@ $("#nav-icon3").click(function () {
 
 
 // COLLAPSIBLE NAV MENU END ===============================
+
 
 
 

@@ -77,7 +77,7 @@
         </p>
 
         <img src="img/AC.jpg" class="PROFPIC">
-          <div class="CREDIT">Credit Anton Pleshka</div>
+          
       </div>
 
       <div class="BREAKTOP"></div>
@@ -130,8 +130,9 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/3.0.3/handlebars.runtime.min.js"></script>
 <script src="js/jquery.instashow.min.js"></script>
 <script src="js/modaal.js"></script>
-<script src="js/script.js"></script>
+<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
 
+<script src="js/script.js"></script>
 
 
 </body>
