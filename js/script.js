@@ -31,6 +31,10 @@ $(function(){
 
 
 
+
+
+//SCROLL ANIMATION ===============================
+
 var fooReveal = {
   origin : 'bottom',
   delay    : 100,
@@ -43,12 +47,16 @@ window.sr = ScrollReveal();
 sr.reveal('.module', fooReveal);
 
 
+//SCROLL ANIMATION END ===============================
+
+
+
 
 
 // BACKUP      =========================================
 
 
-$(document).ready(function(){  
+ 
         $("#BACKUP").hide();                  
         $(window).scroll(function(){                          
             if ($(this).scrollTop() > 500) {
@@ -57,7 +65,7 @@ $(document).ready(function(){
                 $('#BACKUP').fadeOut();
             }
         });
-    });
+ 
 
 // BACKUP END      ====================================
 
@@ -75,38 +83,37 @@ $(function(){
 });
 
 
+// MODAL ===============================
 
 
-
-  $('.image').modaal({
+$('.image').modaal({
     type: 'image',
     background: 'white',
     overlay_opacity: '0.8',
 
 });
 
-
+// MODAL END ===============================
 
 
 // COLLAPSIBLE NAV MENU ===============================
 
 
-$(document).ready(function(){
-  $('#nav-icon3').click(function(){
+$('#nav-icon3').click(function(){
     $(this).toggleClass('open');
   });
-});
+
 
 $('#nav-icon3').click(function() {
     $('#NAVMENU').fadeToggle(300);
 });
 
 
-$(document).ready(function(){
+
 $("#nav-icon3").click(function () {
     $(".sidebar").toggleClass("FIXED");
   });
-});
+
 
 
 // COLLAPSIBLE NAV MENU END ===============================
@@ -114,11 +121,3 @@ $("#nav-icon3").click(function () {
 
 
 
-
-// SCROLL ANIMATION ===============================
-
-
-
-
-
-// SCROLL ANIMATION END         ===============================
