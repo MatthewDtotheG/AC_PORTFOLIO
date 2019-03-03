@@ -1,25 +1,19 @@
 {
-  "name": "dummy",
+  "name": "AC_PORTFOLIO",
   "version": "0.0.1",
-  "description": "A framework for projects.",
+  "description": "Protfolio site for Andy Corbett",
   "main": "gulpfile.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch scss -o css"
   },
   "repository": {
     "type": "git",
     "url": "https://bitbucket.org/paperbeatsscissors/dummy"
   },
-  "author": "Paperbeatsscissors",
+  "author": "Matthew Garrett",
   "license": "ISC",
-  "devDependencies": {
-    "gulp": "~3.9.1",
-    "es6-promise": "~3.1.2",
-    "gulp-sass": "~2.3.2",
-    "gulp-sass-glob": "0.0.8",
-    "gulp-merge-media-queries": "~0.2.1",
-    "gulp-autoprefixer": "~3.1.0",
-    "gulp-cssmin": "~0.1.7",
-    "browser-sync": "~2.11.1"
+  "dependencies": {
+    "node-sass": "^4.11.0"
   }
 }
